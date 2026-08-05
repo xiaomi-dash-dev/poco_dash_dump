@@ -1,0 +1,66 @@
+{
+    "config_name":"super_core_config",
+    "version":"2025050700",
+    "product":"dash",
+
+    "SUPER CORE": {
+        "FIRSTFRAME_DURATION_ENABLE": false,
+        "SUPERTOUCH_ENABLE": false,
+        "PENDINGBUFFER_ENABLE": true,
+        "FIRSTFRAME_BOOST_ENABLE": true,
+        "DYNAMIC_DROPBUFFER_ENABLE": false,
+        "FIRSTFRAME_DURATION_LEVEL": 1,
+        "SUPERTOUCH_LEVEL": 2,
+        "PENDINGBUFFER_LEVEL": 2,
+        "FIRSTFRAME_BOOST_LEVEL": 2,
+        "DYNAMIC_DROPBUFFER_LEVEL": 3,
+        "SUPERTOUCH_ENABLE_APP": [
+        ],
+        "PENDINGBUFFER_ENABLE_APP": [
+            "com.tencent.tmgp.sgame",
+            "com.tencent.tmgp.pubgmhd"
+        ]
+    },
+    "HOT_AREA": {
+        "HOT_AREA_APP_SET_ENABLE": true,
+        "HOT_AREA_ADAPT_ENABLE": true,
+        "APP":[
+            {"com.tencent.tmgp.sgame":"APP_SET_SGAME"},
+            {"com.tencent.tmgp.sgamece":"APP_SET_SGAME"}
+        ],
+        "ADAPT":[
+            {"com.tencent.tmgp.pubgmhd":"AREA_INFO_ADAPT"}
+        ],
+        "com.tencent.tmgp.sgame":"/mnt/vendor/persist/touch/sgame.json",
+        "com.tencent.tmgp.sgamece":"/mnt/vendor/persist/touch/sgamece.json"
+    },
+    "GAMEPAD": {
+        "HIGHLIGHT_MOMENTS": {
+            "HIGHLIGHT_ENABLE": true,
+            "HIGHLIGHT_APP":[
+            ]
+        },
+        "AI_PREDICT": {
+            "AI_PREDICT_ENABLE": false,
+            "AI_PREDICT_APP":[
+            ]
+        },
+        "MULTI_DEVICE": {
+            "MULTI_DEVICE_ENABALE": true
+        }
+    },
+    "SUPER_VIBRATOR": {
+        "VIBRATOR_ENABLE": false,
+        "APP":[
+        ]
+    },
+    "NORMAL_REPORT_RATE": {
+        "NORMAL_REPORT_RATE_ENABLE": true,
+        "APP":[
+            "com.miHoYo.Nap",
+            "com.miHoYo.hkrpg",
+            "com.kurogame.mingchao",
+            "com.miHoYo.Yuanshen"
+        ]
+    }
+}

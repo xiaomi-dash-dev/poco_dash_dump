@@ -1,0 +1,26 @@
+{
+	"name":"brightness",
+	"version":"1.0",
+	"product":"dash",
+	"BRIGHTNESS_REMAP":
+	{
+		"RemapEnable": 1,
+		"minNitvalue": 2.0,
+		"minBLvalue": 15,
+		"RemapThreshold": 13700,
+		"RemapThresholdNum": 3,
+		"RemapThresholdZone": {
+			"RemapThresholdZone0": "2.0,600.0,15,8191",
+			"RemapThresholdZone1": "600.0,800.0,8191,9728",
+			"RemapThresholdZone2": "800.0,2000.0,9728,13700",
+		},
+		"RemapPointNum": 32,
+		"TargetNit": "1.89,2.23,2.61,3.17,3.93,4.85,6.11,7.79,9.86,12.35,15.94,20.22,25.37,37.37,53.57,74.33,101.63,138.33,187.51,239.44,301.09,375.52,465.00,568.95,611.43,657.86,709.32,759.37,981.54,1247.26,1554.61,1900.45",
+		"PanelBrCl": "15,21,27,34,48,62,77,107,137,167,230,293,357,598,839,1080,1627,2174,2721,3815,4909,6003,7097,8191,8575,8960,9344,9728,10721,11714,12707,13700",
+		"Tolerance": "0,0",
+		"Tolerancefac": "1,1.09",
+		"TargetBlvalue": 8191,
+		"CalExtension": 1
+	}
+}
+
