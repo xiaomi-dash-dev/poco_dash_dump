@@ -1,0 +1,18 @@
+{
+  "api" : "video_segment",
+  "name" : "video_segment_mtk_6991",
+  "version" : 7,
+  "models" : [ {
+    "id" : "video_segment_model_mtk_6991",
+    "version" : 1,
+    "required" : true
+  } ],
+  "plugin" : {
+    "id" : "video_segment_mtk_6991",
+    "version" : 4,
+    "entry" : "com.xiaomi.taiyi.plugin.videosegment.VideoSegmentPlugin"
+  },
+  "isLLM" : false,
+  "disabled" : false,
+  "type" : 0
+}

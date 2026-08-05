@@ -1,0 +1,20 @@
+## missi-user 16 BP2A.250605.031.A3 16OS3.1.260728.145010743.MTPEGL.S release-keys
+- Manufacturer: xiaomi
+- Platform: mt6991
+- Codename: dash
+- Brand: POCO
+- Flavor: missi-user
+- Release Version: 16
+- Kernel Version: 
+- Id: BP2A.250605.031.A3
+- Incremental: 16OS3.1.260728.145010743.MTPEGL.S
+- Tags: release-keys
+- CPU Abilist: arm64-v8a
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: 480
+- Fingerprint: POCO/dash_global/dash:15/AP3A.240905.015.A2/OS3.0.303.0.WPLMIXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-16-BP2A.250605.031.A3-16OS3.1.260728.145010743.MTPEGL.S-release-keys
+- Repo: poco_dash_dump

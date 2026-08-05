@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="support_tp_mqs_gl_report">true</bool>
+        <bool name="common_reverse_charge">true</bool>
+        <integer name="embedded_tf_boost_value">0</integer>
+        <bool name="gnss_enhance_interface_version3">true</bool>
+        <bool name="persist.vendor.bluetooth.echo.supported">true</bool>
+        <bool name="persist.vendor.bluetooth.lhdc.v5.supported">true</bool>
+        <bool name="persist.vendor.bluetooth.offload.lhdc.supported">true</bool>
+        <bool name="support_game_turbo_tool">true</bool>
+        <bool name="support_tp_proximity_mode">true</bool>
+        <bool name="t1_wifi_signal_enhance_2.4g_support">true</bool>
+        <bool name="persist.vendor.bluetooth.skip.rfcomm.auth">true</bool>
+        <bool name="powerkeeper_ExtremeScenarioAware">true</bool>
+        <bool name="support_virtual_call">true</bool>
+        <integer name="config_wifi_sar_pattern">8</integer>
+        <bool name="config_supported_aon_devices">true</bool>
+        <string-array name="miui_mtk_perf_boost_config">
+            <item>0x00400000</item>
+            <item>1000000</item>
+            <item>0x00400100</item>
+            <item>1000000</item>
+            <item>0x00c00000</item>
+            <item>39</item>
+        </string-array>
+        <bool name="input_scroller_optimization_normal_support">true</bool>
+    </cust_feature>
+</cust_features>
